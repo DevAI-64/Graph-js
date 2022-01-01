@@ -33,7 +33,7 @@ function displayGraph(graph){
     // display the graph's edges
     edges.forEach((edge) => {
         let message = `${edge.getNodeStart().getId()} --- ${edge.getId()} = 
-        ${edge.getWeight()} ---> ${edge.getNodeEnd().getId()}`;
+            ${edge.getWeight()} ---> ${edge.getNodeEnd().getId()}`;
         console.log(message);
     });
 }
